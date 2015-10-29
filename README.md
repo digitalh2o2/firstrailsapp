@@ -1,1 +1,1 @@
-# firstrailsapp
+# firstrailsapp following www.theodinproject.com
