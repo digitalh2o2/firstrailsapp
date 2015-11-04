@@ -45,4 +45,9 @@ class ArticlesController < ApplicationController
 		redirect_to article_path(@article)
 	end
 
+	def tag_list
+  self.tags.collect do |tag|
+    tag.name
+  end.join(", ")
+end
 end
